@@ -1,0 +1,157 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+h1{
+    background-color: #fefefa;
+    color:#734f96;
+    padding: 40px;
+    text-align:center;
+    font-size: 55px;
+    font-family: Monaco;
+    text-shadow: 5px 2px  #848482;
+
+}
+
+
+select{
+    background-color:#fcfcfa;
+}
+
+
+nav{
+    background-color:white;
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+
+
+nav ul li {
+    list-style: none;
+    transition: background-color rgb(59, 22, 147);
+    
+}
+nav ul li a{
+    text-decoration: none;
+   
+
+}
+nav ul li a:hover{
+    background-color: rgb(220, 232, 245);
+    cursor: pointer;
+   
+}
+a{
+   font-size: 20px; 
+
+}
+
+.box{
+    width: 220px;
+    height: 400px;
+    text-align: center;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+img{
+  
+   height: 200px;
+   object-fit:fill;
+   cursor: pointer;
+   width: 200px;  
+}
+
+
+button{
+   width: 150px;
+   padding: 8px; 
+   margin: auto;
+   background-color: #848482;
+   border-radius: 30%;
+}
+
+
+button:hover{
+    background-color: #f6f6f4;
+}
+
+
+.price{
+    color: rgb(226, 20, 20);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+p{
+    padding: 3px;
+}
+.box{
+    padding: 12px;
+    margin: 10;
+    background-color: rgb(252, 254, 254);
+    width: 220px;
+}
+ 
+
+
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* overflow: hidden; */
+    background-color: #848482;
+    padding: 3px;
+    border-radius: 10px;
+    width: 30-0px;
+}
+
+
+div.product{
+  transition: all linear 0.01s ;
+}
+
+
+.product:hover{
+   
+    transform: scale(1.1);
+    box-shadow: 2px 1px 3px 3px  #734f96;;
+}
+
+    
+.mainbox{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+} 
+
+
+
+footer{
+    background-color: #734f96;
+    display: flex;
+    justify-content: center;color: #f6f6f4;
+    padding: 20px;
+    text-shadow: 5px 2px  #000000;
+}
+
+
+.p2{
+    display:flex;
+    justify-content: center;
+}
+
+
+select {
+  padding: 1px;
+  width: 80px;
+  height: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
